@@ -1,4 +1,5 @@
 if __name__ == "__main__":
     print("Hello World")
-    a = int(input("Enter Number : "))
     b = "gre"
+    for i in range(23):
+        print(i)
