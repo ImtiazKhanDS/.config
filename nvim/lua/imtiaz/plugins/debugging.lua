@@ -16,6 +16,7 @@ return {
         -- setup dap config by VsCode launch.json file
         -- require("dap.ext.vscode").load_launchjs()
 
+        require("nio")
         require("nvim-dap-virtual-text").setup({})
         vim.g.dap_virtual_text = true
 
