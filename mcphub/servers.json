@@ -1,0 +1,26 @@
+{
+  "mcpServers": [
+    {
+      "name": "time",
+      "args": ["mcp-server-time"],
+      "command": "uvx"
+    },
+    {
+      "name": "fetch",
+      "args": ["mcp-server-fetch"],
+      "command": "uvx"
+    },
+
+    {
+      "name": "redis",
+      "command": "uvx",
+      "args": ["mcp-server-redis", "--url", "${REDIS_URL}"]
+    },
+
+    {
+      "name": "sequentialthinking",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    }
+  ]
+}
